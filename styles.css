@@ -1,0 +1,49 @@
+body {
+    font-family: 'Hero', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.htop {
+    justify-content: space-between;
+    display: flex;
+}
+
+.right {
+    padding-left: 0;
+    padding-right: 40px;
+    text-decoration: none;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.htop .left {
+    font-size: 24px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px
+}
+
+/*div {
+    padding-left: 50px;
+    padding-right: 50px;
+}
